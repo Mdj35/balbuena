@@ -16,7 +16,6 @@ import BookingPage from './BookingPage'; // Import your BookingPage component
 
 const App = () => {
   return (
-    <BookingProvider>
       <Router>
         <Routes>
           {/* Original routes */}
@@ -38,7 +37,6 @@ const App = () => {
           <Route path="/book-service" element={<BookingPage />} /> 
         </Routes>
       </Router>
-    </BookingProvider>
   );
 };
 
